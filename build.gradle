@@ -21,7 +21,7 @@ allprojects {
     repositories {
         google()
         jcenter()
-        maven {
+        maven {git remote add origin
             url 'https://maven.google.com/'
             name 'Google'
         }
