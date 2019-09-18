@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import com.sgs.messagedisplay.ToasterMessage;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -13,6 +12,5 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ToasterMessage.s(this,"Hi, Hello , How Are You....");
     }
 }
